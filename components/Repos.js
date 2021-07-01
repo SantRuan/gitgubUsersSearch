@@ -8,15 +8,15 @@ const Repos = () => {
 
   const chartData = [
     {
-      label: "Venezuela",
+      label: "html",
       value: "290"
     },
     {
-      label: "Saudi",
+      label: "CSS",
       value: "260"
     },
     {
-      label: "Canada",
+      label: "JavaScript",
       value: "180"
     }
     
@@ -26,7 +26,8 @@ const Repos = () => {
   return( 
   <section className="section">
     <Wrapper className ="section-center">
-  <ExampleChart data = {chartData}/>
+  {/* <ExampleChart data = {chartData}/> */}
+   <Pie3D data ={chartData}></Pie3D>
   </Wrapper>
   </section>
   )
